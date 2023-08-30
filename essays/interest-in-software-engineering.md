@@ -11,6 +11,7 @@ labels:
 
 # My Interest In Software Engineering
 <img width="100%" class="rounded float-start pe-4" src="https://www.state.gov/wp-content/uploads/2021/06/AI-Motherboard-scaled.jpg">
+
 ## What Made Me Interested in Software Engineering
 
 I have always been fasincated how you can almost do anything with computers. I think my first time I actually ever used a computer was accessing youtube when I was around 7 years old. Time sure has flown. Now a days I constantly see new sites and new projects getting developed that always amaze me. It was not until I was in high school I had my first breath of programming. In high school our teacher tought us how to program in python. This experience brought so much fun developing solutions to problems, and also getting to customize the project the way we wanted it. This is what developed my interest in becoming a software engineer.
