@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
+title: "SnowDown"
+date: 2021
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+  - Hackathon
+  - Python
+  - React
+summary: "During 2021 I participated in a hackathon challenge and developed a website that would help allow the public to alert officials on endangered monk seals."
 ---
 
 <div class="text-center p-4">
