@@ -15,7 +15,7 @@ labels:
 <img width="50%" src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg"/>
 </div>
 
-<p> Javascript some people hate it and some people love it. I personally am not a huge fan of plane javascript. When first using javascript back in high school I did not like the feeling of the language. That may seem very vague, but considering I had no way to express the issues I was experiencing with javascript that was the best way I could put it at the time. Nowadays I can express I lot of what I hate about javascript. I find it weird in JavaScript that the basic equal operator <code>==</code> does not really do its job. For example:</p>
+<p> Javascript some people hate it and some people love it. I personally am not a huge fan of plane javascript. When first using javascript back in high school I did not like the feeling of the language. That may seem very vague, but considering I had no way to express the issues I was experiencing with javascript that was the best way I could put it at the time. Nowadays I can express a lot of what I hate about javascript. I find it weird in JavaScript that the basic equal operator <code>==</code> does not really do its job. For example:</p>
 
 <code>1 == '1'</code> vs <code>1 == 1 </code>
 
