@@ -1,3 +1,13 @@
+---
+layout: essay
+type: essay
+title: "My Interest In Software Engineering"
+# All dates must be YYYY-MM-DD format!
+date: 2023-08-29
+published: true
+labels:
+  - Engineering
+---
 
 # My Interest In Software Engineering
 ![enter image description here](https://www.state.gov/wp-content/uploads/2021/06/AI-Motherboard-scaled.jpg)
