@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://raw.githubusercontent.com/KobeUyeda/ee205_lab10d_animal_farm_2/master/images/animal_farm_full.jpg
+image: img/animal_farm_full.jpg
 title: "Animal Farm"
 date: 2022
 published: true
