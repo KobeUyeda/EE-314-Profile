@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Reflecting on Javascript 1"
+title: "My Experience with Javascript"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-29
 published: true
@@ -9,7 +9,7 @@ labels:
   - Engineering
   - Javascript
 ---
-<h1>Reflecting on Javascript 1</h1>
+<h1>My Experience with Javascript</h1>
 <div style="background-color:#0A0A22; overflow: hidden">
 <img width="50%" style="float: left;" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"/>
 <img width="50%" src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg"/>
