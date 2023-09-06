@@ -11,7 +11,7 @@ labels:
   - Stack Overflow
 ---
 
-<h1>Smart Questions or Not Smart Questions</h1>
+<h1>What is a Bad Question</h1>
 <img width="100%" src="https://i.stack.imgur.com/IxkIq.jpg"/>
 When you ask a question on the internet how do you write out your question? Does it go along the lines of, “I don’t know what is wrong my computer just stopped working” or something along the lines of “My code just does not work.” In both cases were you praised for asking this question or were you downvoted into oblivion?
 
