@@ -12,7 +12,7 @@ labels:
 ---
 
 <h1>Smart Questions or Not Smart Questions</h1>
-<img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"/>
+<img width="100%" src="https://i.stack.imgur.com/IxkIq.jpg"/>
 When you ask a question on the internet how do you write out your question? Does it go along the lines of, “I don’t know what is wrong my computer just stopped working” or something along the lines of “My code just does not work.” In both cases were you praised for asking this question or were you downvoted into oblivion?
 
 I would expect in both cases you were downvoted, and if you were using Stack Overflow you may have been banned from asking any more questions for a while. When asking questions on a forum it is imperative the question you ask is smart.
