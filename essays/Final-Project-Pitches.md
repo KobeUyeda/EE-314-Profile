@@ -36,10 +36,12 @@ Our solution is to create a communication platform designed for the school it wo
 # Beyond the basics
 Schools sign in method (Oath system) - Used for authentication
 3rd party extensions - Creating an API that can allow for this
+
 - Annoucment bot
 - Star bot for classes
 - Star bot for scholarships
 - Calendar system
+
 Mobile friendly - makes it easier for people on the go
 Notification system - web browser notify/email maybe
 Supper extra feature Video/audio calls
