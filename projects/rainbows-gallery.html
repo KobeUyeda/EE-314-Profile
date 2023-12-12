@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="rainbow-gallery | Kobe Uyeda | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://raw.githubusercontent.com/KobeUyeda/KobeUyeda.github.io/main/img/Kobe-Uyeda.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kobe Uyeda | Professional Portfolio">
+    <meta property="og:url" content="https://KobeUyeda.github.io/projects/rainbows-gallery.html">
+    <meta property="og:title" content="rainbow-gallery | Kobe Uyeda | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://raw.githubusercontent.com/KobeUyeda/KobeUyeda.github.io/main/img/Kobe-Uyeda.jpg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>rainbow-gallery | Kobe Uyeda | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Kobe Uyeda</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">rainbow-gallery</h1>
+ <p><img src="https://rainbows-gallery.github.io/Images/M3/landing.png" width="100%" /></p>
+
+<p>This was our end-of-the-year project for my ICS 314 class. In this class, I was partnered up with three other students in my class. Our main point of contact was through the Discord private channel where we met up every Tuesday and Thursday to catch everyone up on where we were at on our part of the project. We also used this time to assign tasks to each member so that everyone was doing an equal amount of work. Underneath is a contract that we drafted to outline how our group was going to work</p>
+
+<p>Source: <a href="https://docs.google.com/document/d/1cbQv4htZbSGHQxj_0gbgDfSVIsTfvkACISIYMw3NIY0/edit?usp=sharing">Contract</a></p>
+
+<h2 id="what-is-the-project">What is the Project</h2>
+
+<p>Our group was tasked with creating a platform that would allow art majors of UH Manoa to post works they have created. To create this project we drew inspiration from sites such as Instagram, and other social media platforms. We then determined the features we wanted to have in our application. Underneath is our list of features we implemented in the project</p>
+
+<p>Features</p>
+
+<ul>
+  <li>Users (Sign Up / Sign In / Sign Out)</li>
+  <li>Create a Follower system</li>
+  <li>Implement a way for users to upload a post</li>
+  <li>Create a favorite feature</li>
+  <li>Create a search feature for users</li>
+  <li>Create a Feed system of posts from users people follow</li>
+  <li>Create a landing page</li>
+  <li>Create a guide to use the site</li>
+</ul>
+
+<p>From here we then started giving people tasks to complete certain portions of the site. We divided the tasks into three parts or stages to be completed. So some stages require us to create the look of the page and then the next stage could require us to create the functionality that is missing on the page. These tasks per stage were assigned to a person at the beginning of the start of the stage and then they were tasked to complete it by the end of the stage.</p>
+
+<h2 id="coding-environment">Coding Environment</h2>
+
+<p>When coding for this project we used IntelliJ which was created by JetBrains. We then used NVM to change the Node version we were using to Node 16. We had to use Node 16 since that was one of the few versions of Node that worked with Meteor which is the backend framework we used for this project. During this, we also installed the meteor plugin that exists for web browsers to make it easy to debug issues we were having while coding. We also used TestCafe to test out the functionality of a website and check for any errors that populated while interacting with the website.</p>
+
+<h2 id="meteor">Meteor</h2>
+
+<p>In this project, we used Meteor as our Backend for the site. The Meteor framework also used React as the front end and used React-Router for routing to certain pages. In this, we created APIs that we were able to interact with by using Meteors Subscriber methods. This allowed us to create all the functionality that was introduced due to our database.</p>
+
+<h2 id="database">Database</h2>
+
+<p>For our database, Meteor works out of the package with MongoDB. When running the code it spins up a MongoDB instance which stores all our data. In this database, we had over 5 collections (For SQL people that means around 5 tables) one for users, one for posts, one for followers, one for comments, and one for liking posts.</p>
+
+<h2 id="testing">Testing</h2>
+
+<p>For testing, we had to make sure that the code followed all the Es-Lint standards that were defined in the Es-Lint file. On top of that, we were then tasked to test the functionality of our site using TestCafe. TestCafe is a library that makes you define a test file within your project, where you define instructions on how to interact with your site. Once you do that you can run these scripts and it will simulate these interactions on your webpage. If at any point it runs into any errors or issues it will flag and fail the test. Within Github’s server actions, we implemented a feature where if the main is updated it would run the action to check if it passes all the tests. We then were able to display a badge on our documentation of whether the code had passed its test or failed it.</p>
+
+<h2 id="contributions">Contributions</h2>
+
+<p>For this project, I worked heavily on the functionality of the page. I created the followers/following collection, the posts collection, and the liking of a post collection. From there I implemented the features such as creating the Meteor subscriptions for these schemas. I also created a feature that takes in a user’s file that they uploaded for a post and stores it in a service called Cloudinary. I then created the clickable image component that is used on multiple pages to show all the posts. I also implemented a way for users to like a post (starting a post / un-staring a post). I then developed all the testing scenarios that were used to test out the functionality of the site.</p>
+
+<h2 id="preview">Preview</h2>
+
+<p><img src="https://rainbows-gallery.github.io/Images/M3/your-profile.png" width="50%" style="float:right;" />
+<img src="https://rainbows-gallery.github.io/Images/M3/add-post-filled-in.png" width="50%" style="float:left;" />
+<img src="https://rainbows-gallery.github.io/Images/M3/feed-after-follow.png" width="50%" style="float:right;" />
+<img src="https://rainbows-gallery.github.io/Images/M3/photo-interact-after-like-comment.png" width="50%" style="float:left;" /></p>
+
+<h2 id="documentation">Documentation</h2>
+
+<p>Github Repo: <a href="https://github.com/rainbows-gallery/gallery-app">Repo</a>
+Documentation Page: <a href="https://rainbows-gallery.github.io/">Documentation</a>
+MileStone Page: <a href="https://github.com/orgs/rainbows-gallery/projects">Mile Stones</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

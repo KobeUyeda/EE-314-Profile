@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "Kobe Uyeda",
+    "label": "Student",
+    "picture": "https://raw.githubusercontent.com/KobeUyeda/KobeUyeda.github.io/main/img/Kobe-Uyeda.jpg",
+    "email": "kobek@hawaii.edu",
+    "phone": "808-347-3709",
+    "website": "https://kobeuyeda.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Engineering at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "95-1024 Kelakela st", "postalCode": "96789", "city": "Mililani", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "Kobe Uyeda", "url": "http://github.com/KobeUyeda" },
+      { "network": "linkedin", "username": "Kobe Uyeda", "url": "http://linkedin.com/in/kobeuyeda" },
+      { "network": "twitter", "username": "Kobe Uyeda", "url": "https://twitter.com/kob_eeeeeeeeee" },
+      { "network": "instagram", "username": "Kobe Uyeda", "url": "https://www.instagram.com/kob_eeeeee" }
+    ]
+  },
+  "interests": [
+    { "name": "AI" },
+    { "name": "Website Development" },
+    { "name": "Robotics" },
+    { "name": "3D Design" },
+    { "name": "Cloud Computing" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Javascript", "GO", "Rust", "Python", "Dart" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "Windows" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020-08-25",
+      "endDate": "Present",
+      "courses": [
+        
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Honolulu Police Department",
+      "position": "Internship",
+      "website": "",
+      "startDate": "2023-01-27",
+      "endDate": "2023-06-30",
+      "summary": "Worked in the Information IT Department creating a site",
+      "highlights": [
+        "Designed and Developed a website that will be used for internal records",
+        "Developed a comprehensive Permission system within site",
+        "Developed an automated test for the website"
+      ]
+    },
+    {
+      "company": "Century 21 Paradise International",
+      "position": "IT Consultant",
+      "website": "",
+      "startDate": "2020-08-01",
+      "endDate": "2022-12-31",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot network and software problems over the phone",
+        "Set up servers for company access of files and computers"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Mililani High School",
+      "website": "https://www.mililanihs.org/",
+      "position": "Mentor",
+      "startDate": "2016-01-01",
+      "endDate": "Present",
+      "summary": "I helped Mento High School kids to get ready for the Hawaii annual code challenge",
+      "highlights": [
+        "Help them flesh out designs to be better suited for cloud deployment",
+        "Help educate on cutting edge technology that industry uses"
+      ]
+    },
+  ],
+  "awards": [
+    {
+      "title": "A+ Certification",
+      "date": "2019-Present",
+      "awarder": "CompTIA",
+      "summary": "A+ certification is a certification awarded by CompTIA which certifies the holder having the knowledge for IT"
+    },
+    {
+      "title": "Dean's List",
+      "date": "2022",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "I got on the dean's list in the fall semester of 2022 signifying I got a GPA of 3.5 or higher."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

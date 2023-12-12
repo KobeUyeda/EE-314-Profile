@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Design Patterns and Their Uses | Kobe Uyeda | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://raw.githubusercontent.com/KobeUyeda/KobeUyeda.github.io/main/img/Kobe-Uyeda.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kobe Uyeda | Professional Portfolio">
+    <meta property="og:url" content="https://KobeUyeda.github.io/essays/Design-patterns.html">
+    <meta property="og:title" content="Design Patterns and Their Uses | Kobe Uyeda | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://raw.githubusercontent.com/KobeUyeda/KobeUyeda.github.io/main/img/Kobe-Uyeda.jpg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Design Patterns and Their Uses | Kobe Uyeda | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Kobe Uyeda</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Design Patterns and Their Uses</h1>
+  <span class="date">28 Nov 2023</span>
+  <hr>
+  <p><img width="100%" class="rounded float-start pe-4" src="https://m.media-amazon.com/images/I/51uxEj502bL._AC_UF1000,1000_QL80_.jpg" /></p>
+
+<h1 id="what-is-a-design-pattern">What is a Design Pattern</h1>
+
+<p>Coding for the web kind of sucks due to repetitive tasks. It also sucks if you are working on a team where everyone has their coding style. Suppose a bug is introduced that comes from someone else then have fun looking through all their code. Setting standards for approaching a problem would be the best way to fix this problem. This is where design patterns step in to solve this problem. Design patterns are templates/standards to follow that have been tested and proved to accomplish the task that was given.</p>
+
+<p>A good way to demonstrate design patterns is to think about it like a template. When people draw faces they usually start with drawing an oval and finding the center of the face. From there they add eyes around the middle part, create eyebrows around the eyes, draw a mouth lower on the face in the center, erase the center lines you created, and continue from there. This is a good example of a design pattern that artist use to create faces in their artwork. In the example, a methodology was developed that has been a proven way to draw faces.</p>
+
+<h2 id="software-examples">Software Examples</h2>
+
+<p>A good example of this would be libraries that have been developed to build websites like Laravel, Django, meteor, NextJS, etc. Almost all libraries have a design pattern you have to follow to use their toolset. The reasons why they have these design patterns can vary from speed to readability. Meteor follows along the lines of using the same design pattern React has which is functional. Each view is its component and you can define a component by creating a function and rendering the view by using a return statement on the function. Then to add to that meteor structure it has a page directory, server directories, and more. This kind of gives a structure on what kind of files are going to be stored in each area, making it simpler to figure out what going on, and where it is happening. These design patterns then make it super easy to debug problems even if you have multiple people working on a project.</p>
+
+<p>If we were to go beyond just website development though we can see design patterns in other things we code as well. The best way to illustrate this is by looking at object-oriented programming, If we were to create a shape class we can set base values that all shapes have like a name, dimensions, and so on. Other objects then can inherit from shape and these objects also have to follow the standards that shape has. This makes it predictable on functions that all shapes should have as well.</p>
+
+<h1 id="personal-projects-i-have-used-design-patterns">Personal Projects I Have Used Design Patterns</h1>
+
+<p>In our final project alone for ICS 314 just by using React, Bootstrap, ESLint, and Meteor, we were introduced to many design patterns that were used to make the code more readable, easier to diagnose problems, and easier to navigate. Though these libraries made us use their design patterns does not mean that we can not add our own to this. A good example of this is when you create a component in React you are creating a standard way to display a part of your site. These components can take in parameters that force you to use certain types of values. With this, you are creating a design pattern that future people can use on their sites as well. Which is something we also did on our site. While I may not have been a fan of some of the design patterns of these other libraries they provided a good structure for developing a website with many people</p>
+
+<p>Another use of design patterns I implemented was when I created a website for my job. Laravel is a PHP library that is used to create websites, and one of the things it does is use APIs. The issue is when your API behaves very differently depending on the permissions a user has the file can get very confusing. This is why I created my design pattern in Laravel to use a directory type of routing as they have in NextJS. This allowed me to break up the file so it’s more readable, and it allowed me to make a standard for other people if they want to create an API in the future as well.</p>
+
+<h1 id="final-remarks">Final Remarks</h1>
+
+<p>I feel like if you develop any time of software you will eventually create a design pattern. You could use other framework libraries, but in doing so you will most likely be using their design pattern. Since design patterns are just a templated methodology that was created to solve a problem you will see a lot of design patterns in anything you do for programming. If you were to just look at networking alone there are a bunch of design patterns of how data is sent from one device to another.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
