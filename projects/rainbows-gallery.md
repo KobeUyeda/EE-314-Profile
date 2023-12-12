@@ -55,6 +55,10 @@ For our database, Meteor works out of the package with MongoDB. When running the
 
 For testing, we had to make sure that the code followed all the Es-Lint standards that were defined in the Es-Lint file. On top of that, we were then tasked to test the functionality of our site using TestCafe. TestCafe is a library that makes you define a test file within your project, where you define instructions on how to interact with your site. Once you do that you can run these scripts and it will simulate these interactions on your webpage. If at any point it runs into any errors or issues it will flag and fail the test. Within Github's server actions, we implemented a feature where if the main is updated it would run the action to check if it passes all the tests. We then were able to display a badge on our documentation of whether the code had passed its test or failed it.
 
+## Contributions
+
+For this project, I worked heavily on the functionality of the page. I created the followers/following collection, the posts collection, and the liking of a post collection. From there I implemented the features such as creating the Meteor subscriptions for these schemas. I also created a feature that takes in a user's file that they uploaded for a post and stores it in a service called Cloudinary. I then created the clickable image component that is used on multiple pages to show all the posts. I also implemented a way for users to like a post (starting a post / un-staring a post). I then developed all the testing scenarios that were used to test out the functionality of the site.
+
 ## Preview
 
 <img src="https://rainbows-gallery.github.io/Images/M3/your-profile.png" width="50%" style="float:right;"/>
